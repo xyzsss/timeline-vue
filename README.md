@@ -197,3 +197,23 @@ npm run filemap
 **[⬆ back to top](#目录)**
 
 ## 项目架构（加载中...）
+
+
+
+
+
+### op
+proj: https://github.com/xyzsss/timeline-vue
+```
+# 1, nodejs installation
+# 2,cnpm install: npm install -g cnpm --registry=https://registry.npm.taobao.org
+# 3,安装依赖
+npm run bootstrap
+# 4,mod config， port 17777
+config/index.js
+# 5,start ,同时开启
+cd /data/timeline-vue ; npm run all
+== node server-koa/app.js && node build/dev-server.js
+== 失败：cd /data/timeline-vue/build; pm2 start dev-server.js && cd /data/timeline-vue/server-koa ; pm2 start app.js
+== tmux
+```
